@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+    background-image: url(../wdbsite2/f1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+ font-family: 'Times New Roman', Times, serif;
+text-align: center;
+color: aliceblue;
+}
+
+p{
+text-align: center;
+padding: 10px 10px 10px 10px;
+color:aliceblue;
+font-size: 25px;
+font-style:bold ;
+}
+video {
+    width: 300px; /* عرض الفيديو */
+    margin-right: 20px; /* مسافة بين الفيديو والنص */
+}
+.container {
+    display: flex;
+    align-items: center; /* لمحاذاة الصورة مع النص */
+}
+.container img {
+    margin-right: 10px; /* مسافة بين الصورة والنص */
+    width: 100px; /* عرض الصورة */
+    height: auto; /* الحفاظ على نسبة الأبعاد */
+}
+
